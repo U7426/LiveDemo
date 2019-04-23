@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		495025D4CF657BB70D712790 /* libPods-LiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718D4FA8CA835B6C2D3283CC /* libPods-LiveDemo.a */; };
 		C8AF3816226EAEBC006E7A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3815226EAEBC006E7A1C /* AppDelegate.m */; };
 		C8AF3819226EAEBC006E7A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3818226EAEBC006E7A1C /* ViewController.m */; };
 		C8AF381C226EAEBC006E7A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AF381A226EAEBC006E7A1C /* Main.storyboard */; };
 		C8AF381E226EAEBE006E7A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AF381D226EAEBE006E7A1C /* Assets.xcassets */; };
 		C8AF3821226EAEBE006E7A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AF381F226EAEBE006E7A1C /* LaunchScreen.storyboard */; };
 		C8AF3824226EAEBE006E7A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3823226EAEBE006E7A1C /* main.m */; };
+		C8AF382F226EAFD8006E7A1C /* LiveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF382E226EAFD7006E7A1C /* LiveInfo.m */; };
+		C8B2F498226EB23F005ABFDC /* SwitchLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F497226EB23F005ABFDC /* SwitchLiveViewController.m */; };
+		C8B2F49B226EBA9E005ABFDC /* SwitchLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F49A226EBA9D005ABFDC /* SwitchLiveView.m */; };
+		C8B2F4A2226EDC5B005ABFDC /* GiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4A1226EDC5B005ABFDC /* GiftViewController.m */; };
+		C8B2F4A6226EDD86005ABFDC /* GiftShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4A5226EDD86005ABFDC /* GiftShowManager.m */; };
+		C8B2F4A9226EDDAA005ABFDC /* GiftShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4A8226EDDAA005ABFDC /* GiftShowModel.m */; };
+		C8B2F4AC226EE00F005ABFDC /* ItemScrollNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4AA226EE00F005ABFDC /* ItemScrollNumView.m */; };
+		C8B2F4AF226EE03A005ABFDC /* GiftNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4AD226EE03A005ABFDC /* GiftNumView.m */; };
+		C8B2F4B5226EE18A005ABFDC /* GiftLuckyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4B3226EE18A005ABFDC /* GiftLuckyView.m */; };
+		C8B2F4C0226EE2B8005ABFDC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4BB226EE2B8005ABFDC /* UIView+Frame.m */; };
+		C8B2F4C1226EE2B8005ABFDC /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4BD226EE2B8005ABFDC /* UILabel+Common.m */; };
+		C8B2F4C2226EE2B8005ABFDC /* UIFont+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4BE226EE2B8005ABFDC /* UIFont+Common.m */; };
+		C8B2F4C6226EE5C7005ABFDC /* 礼物声音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B2F4C5226EE5C7005ABFDC /* 礼物声音.mp3 */; };
+		C8B2F4C9226EE640005ABFDC /* GiftShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B2F4C7226EE640005ABFDC /* GiftShowView.m */; };
+		C8B2F4D0226EF03D005ABFDC /* gift.json in Resources */ = {isa = PBXBuildFile; fileRef = C8B2F4CF226EF03D005ABFDC /* gift.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C6430239057E44008782D07 /* Pods-LiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveDemo.release.xcconfig"; path = "Target Support Files/Pods-LiveDemo/Pods-LiveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		718D4FA8CA835B6C2D3283CC /* libPods-LiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832AF87BA3B834A83FCC3C68 /* Pods-LiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveDemo.debug.xcconfig"; path = "Target Support Files/Pods-LiveDemo/Pods-LiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C8AF3811226EAEBC006E7A1C /* LiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AF3814226EAEBC006E7A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8AF3815226EAEBC006E7A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +45,35 @@
 		C8AF3820226EAEBE006E7A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8AF3822226EAEBE006E7A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8AF3823226EAEBE006E7A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8AF382D226EAFD7006E7A1C /* LiveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveInfo.h; sourceTree = "<group>"; };
+		C8AF382E226EAFD7006E7A1C /* LiveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveInfo.m; sourceTree = "<group>"; };
+		C8B2F496226EB23F005ABFDC /* SwitchLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchLiveViewController.h; sourceTree = "<group>"; };
+		C8B2F497226EB23F005ABFDC /* SwitchLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLiveViewController.m; sourceTree = "<group>"; };
+		C8B2F499226EBA9D005ABFDC /* SwitchLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchLiveView.h; sourceTree = "<group>"; };
+		C8B2F49A226EBA9D005ABFDC /* SwitchLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchLiveView.m; sourceTree = "<group>"; };
+		C8B2F4A0226EDC5B005ABFDC /* GiftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftViewController.h; sourceTree = "<group>"; };
+		C8B2F4A1226EDC5B005ABFDC /* GiftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftViewController.m; sourceTree = "<group>"; };
+		C8B2F4A4226EDD85005ABFDC /* GiftShowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftShowManager.h; sourceTree = "<group>"; };
+		C8B2F4A5226EDD86005ABFDC /* GiftShowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftShowManager.m; sourceTree = "<group>"; };
+		C8B2F4A7226EDDAA005ABFDC /* GiftShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftShowModel.h; sourceTree = "<group>"; };
+		C8B2F4A8226EDDAA005ABFDC /* GiftShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftShowModel.m; sourceTree = "<group>"; };
+		C8B2F4AA226EE00F005ABFDC /* ItemScrollNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemScrollNumView.m; sourceTree = "<group>"; };
+		C8B2F4AB226EE00F005ABFDC /* ItemScrollNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemScrollNumView.h; sourceTree = "<group>"; };
+		C8B2F4AD226EE03A005ABFDC /* GiftNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftNumView.m; sourceTree = "<group>"; };
+		C8B2F4AE226EE03A005ABFDC /* GiftNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftNumView.h; sourceTree = "<group>"; };
+		C8B2F4B3226EE18A005ABFDC /* GiftLuckyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftLuckyView.m; sourceTree = "<group>"; };
+		C8B2F4B4226EE18A005ABFDC /* GiftLuckyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftLuckyView.h; sourceTree = "<group>"; };
+		C8B2F4BA226EE2B8005ABFDC /* UIFont+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Common.h"; sourceTree = "<group>"; };
+		C8B2F4BB226EE2B8005ABFDC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C8B2F4BC226EE2B8005ABFDC /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		C8B2F4BD226EE2B8005ABFDC /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		C8B2F4BE226EE2B8005ABFDC /* UIFont+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Common.m"; sourceTree = "<group>"; };
+		C8B2F4BF226EE2B8005ABFDC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C8B2F4C3226EE2EB005ABFDC /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C8B2F4C5226EE5C7005ABFDC /* 礼物声音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "礼物声音.mp3"; sourceTree = "<group>"; };
+		C8B2F4C7226EE640005ABFDC /* GiftShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftShowView.m; sourceTree = "<group>"; };
+		C8B2F4C8226EE640005ABFDC /* GiftShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftShowView.h; sourceTree = "<group>"; };
+		C8B2F4CF226EF03D005ABFDC /* gift.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gift.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495025D4CF657BB70D712790 /* libPods-LiveDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3D03AC223413813FCFA0AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832AF87BA3B834A83FCC3C68 /* Pods-LiveDemo.debug.xcconfig */,
+				5C6430239057E44008782D07 /* Pods-LiveDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E03D2D2EE3C99A5192AD122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718D4FA8CA835B6C2D3283CC /* libPods-LiveDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8AF3808226EAEBC006E7A1C = {
 			isa = PBXGroup;
 			children = (
 				C8AF3813226EAEBC006E7A1C /* LiveDemo */,
 				C8AF3812226EAEBC006E7A1C /* Products */,
+				1B3D03AC223413813FCFA0AD /* Pods */,
+				4E03D2D2EE3C99A5192AD122 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +126,158 @@
 		C8AF3813226EAEBC006E7A1C /* LiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C8AF382C226EAFC0006E7A1C /* controller */,
+				C8AF382B226EAFBA006E7A1C /* View */,
+				C8AF382A226EAFB2006E7A1C /* Model */,
+				C8B2F4A3226EDD4A005ABFDC /* Until */,
 				C8AF3814226EAEBC006E7A1C /* AppDelegate.h */,
 				C8AF3815226EAEBC006E7A1C /* AppDelegate.m */,
-				C8AF3817226EAEBC006E7A1C /* ViewController.h */,
-				C8AF3818226EAEBC006E7A1C /* ViewController.m */,
 				C8AF381A226EAEBC006E7A1C /* Main.storyboard */,
 				C8AF381D226EAEBE006E7A1C /* Assets.xcassets */,
 				C8AF381F226EAEBE006E7A1C /* LaunchScreen.storyboard */,
 				C8AF3822226EAEBE006E7A1C /* Info.plist */,
+				C8B2F4C3226EE2EB005ABFDC /* Header.h */,
 				C8AF3823226EAEBE006E7A1C /* main.m */,
 			);
 			path = LiveDemo;
+			sourceTree = "<group>";
+		};
+		C8AF382A226EAFB2006E7A1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4D7226EFD8B005ABFDC /* SwitchLive */,
+				C8B2F4D6226EFD61005ABFDC /* Gift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8AF382B226EAFBA006E7A1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4D5226EFD42005ABFDC /* Gfit */,
+				C8B2F4D4226EFD2C005ABFDC /* switchLive */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8AF382C226EAFC0006E7A1C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4D2226EFCDA005ABFDC /* Home */,
+				C8B2F4D1226EFCCC005ABFDC /* switchLive */,
+				C8B2F4D3226EFCF9005ABFDC /* Gift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C8B2F4A3226EDD4A005ABFDC /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4D8226EFDA7005ABFDC /* Manager */,
+				C8B2F4C4226EE5B5005ABFDC /* Resouce */,
+				C8B2F4B9226EE1F0005ABFDC /* Category */,
+				C8B2F4CF226EF03D005ABFDC /* gift.json */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		C8B2F4B9226EE1F0005ABFDC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4BA226EE2B8005ABFDC /* UIFont+Common.h */,
+				C8B2F4BE226EE2B8005ABFDC /* UIFont+Common.m */,
+				C8B2F4BC226EE2B8005ABFDC /* UILabel+Common.h */,
+				C8B2F4BD226EE2B8005ABFDC /* UILabel+Common.m */,
+				C8B2F4BF226EE2B8005ABFDC /* UIView+Frame.h */,
+				C8B2F4BB226EE2B8005ABFDC /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C8B2F4C4226EE5B5005ABFDC /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4C5226EE5C7005ABFDC /* 礼物声音.mp3 */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		C8B2F4D1226EFCCC005ABFDC /* switchLive */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F496226EB23F005ABFDC /* SwitchLiveViewController.h */,
+				C8B2F497226EB23F005ABFDC /* SwitchLiveViewController.m */,
+			);
+			path = switchLive;
+			sourceTree = "<group>";
+		};
+		C8B2F4D2226EFCDA005ABFDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8AF3817226EAEBC006E7A1C /* ViewController.h */,
+				C8AF3818226EAEBC006E7A1C /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8B2F4D3226EFCF9005ABFDC /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4A0226EDC5B005ABFDC /* GiftViewController.h */,
+				C8B2F4A1226EDC5B005ABFDC /* GiftViewController.m */,
+			);
+			path = Gift;
+			sourceTree = "<group>";
+		};
+		C8B2F4D4226EFD2C005ABFDC /* switchLive */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F499226EBA9D005ABFDC /* SwitchLiveView.h */,
+				C8B2F49A226EBA9D005ABFDC /* SwitchLiveView.m */,
+			);
+			path = switchLive;
+			sourceTree = "<group>";
+		};
+		C8B2F4D5226EFD42005ABFDC /* Gfit */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4C8226EE640005ABFDC /* GiftShowView.h */,
+				C8B2F4C7226EE640005ABFDC /* GiftShowView.m */,
+				C8B2F4AB226EE00F005ABFDC /* ItemScrollNumView.h */,
+				C8B2F4AA226EE00F005ABFDC /* ItemScrollNumView.m */,
+				C8B2F4AE226EE03A005ABFDC /* GiftNumView.h */,
+				C8B2F4AD226EE03A005ABFDC /* GiftNumView.m */,
+				C8B2F4B4226EE18A005ABFDC /* GiftLuckyView.h */,
+				C8B2F4B3226EE18A005ABFDC /* GiftLuckyView.m */,
+			);
+			path = Gfit;
+			sourceTree = "<group>";
+		};
+		C8B2F4D6226EFD61005ABFDC /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4A7226EDDAA005ABFDC /* GiftShowModel.h */,
+				C8B2F4A8226EDDAA005ABFDC /* GiftShowModel.m */,
+			);
+			path = Gift;
+			sourceTree = "<group>";
+		};
+		C8B2F4D7226EFD8B005ABFDC /* SwitchLive */ = {
+			isa = PBXGroup;
+			children = (
+				C8AF382D226EAFD7006E7A1C /* LiveInfo.h */,
+				C8AF382E226EAFD7006E7A1C /* LiveInfo.m */,
+			);
+			path = SwitchLive;
+			sourceTree = "<group>";
+		};
+		C8B2F4D8226EFDA7005ABFDC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2F4A4226EDD85005ABFDC /* GiftShowManager.h */,
+				C8B2F4A5226EDD86005ABFDC /* GiftShowManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8AF3827226EAEBE006E7A1C /* Build configuration list for PBXNativeTarget "LiveDemo" */;
 			buildPhases = (
+				6E94351C55B135ECF0F34E0D /* [CP] Check Pods Manifest.lock */,
 				C8AF380D226EAEBC006E7A1C /* Sources */,
 				C8AF380E226EAEBC006E7A1C /* Frameworks */,
 				C8AF380F226EAEBC006E7A1C /* Resources */,
@@ -129,21 +339,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8AF3821226EAEBE006E7A1C /* LaunchScreen.storyboard in Resources */,
+				C8B2F4D0226EF03D005ABFDC /* gift.json in Resources */,
 				C8AF381E226EAEBE006E7A1C /* Assets.xcassets in Resources */,
+				C8B2F4C6226EE5C7005ABFDC /* 礼物声音.mp3 in Resources */,
 				C8AF381C226EAEBC006E7A1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E94351C55B135ECF0F34E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8AF380D226EAEBC006E7A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B2F4AC226EE00F005ABFDC /* ItemScrollNumView.m in Sources */,
+				C8B2F4B5226EE18A005ABFDC /* GiftLuckyView.m in Sources */,
+				C8B2F4AF226EE03A005ABFDC /* GiftNumView.m in Sources */,
+				C8B2F4C2226EE2B8005ABFDC /* UIFont+Common.m in Sources */,
+				C8B2F4A2226EDC5B005ABFDC /* GiftViewController.m in Sources */,
+				C8B2F49B226EBA9E005ABFDC /* SwitchLiveView.m in Sources */,
+				C8B2F4C0226EE2B8005ABFDC /* UIView+Frame.m in Sources */,
 				C8AF3819226EAEBC006E7A1C /* ViewController.m in Sources */,
+				C8AF382F226EAFD8006E7A1C /* LiveInfo.m in Sources */,
+				C8B2F4A6226EDD86005ABFDC /* GiftShowManager.m in Sources */,
+				C8B2F4A9226EDDAA005ABFDC /* GiftShowModel.m in Sources */,
+				C8B2F498226EB23F005ABFDC /* SwitchLiveViewController.m in Sources */,
 				C8AF3824226EAEBE006E7A1C /* main.m in Sources */,
 				C8AF3816226EAEBC006E7A1C /* AppDelegate.m in Sources */,
+				C8B2F4C1226EE2B8005ABFDC /* UILabel+Common.m in Sources */,
+				C8B2F4C9226EE640005ABFDC /* GiftShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +533,12 @@
 		};
 		C8AF3828226EAEBE006E7A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832AF87BA3B834A83FCC3C68 /* Pods-LiveDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32PWMM5MP8;
+				GCC_PREFIX_HEADER = LiveDemo/Header.h;
 				INFOPLIST_FILE = LiveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +552,12 @@
 		};
 		C8AF3829226EAEBE006E7A1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6430239057E44008782D07 /* Pods-LiveDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32PWMM5MP8;
+				GCC_PREFIX_HEADER = LiveDemo/Header.h;
 				INFOPLIST_FILE = LiveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

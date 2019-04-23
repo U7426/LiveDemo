@@ -1,0 +1,231 @@
+(
+ 
+ {
+     category = 1;
+     "charge_assign" = "5.0";
+     cid = 1;
+     comment = "\U6bcf\U9001\U51fa\U4e00\U4e2a\Uff0c\U5bf9\U65b9\U53ef\U5f97500\U6536\U76ca";
+     getcoin = 0;
+     "grab_name" = "\U5929\U4f7f\U4e4b\U7ffc";
+     "grab_price" = 10000;
+     "grab_shell_price" = 500;
+     id = 119;
+     img = "https://cdn.static.orzzhibo.com/201904/1548410037546419.png";
+     "is_luck" = 1;
+     look = 1;
+     looktype = bojue;
+     silver = 0;
+     svga = "";
+     weight = 15;
+ },
+ {
+     category = 1;
+     "charge_assign" = "5.0";
+     cid = 1;
+     comment = "\U6bcf\U9001\U51fa\U4e00\U4e2a\Uff0c\U5bf9\U65b9\U53ef\U83b7\U5f971000\U4e2a\U73cd\U73e0";
+     getcoin = 0;
+     "grab_name" = "\U81f3\U5c0a\U738b\U51a0";
+     "grab_price" = 20000;
+     "grab_shell_price" = 1000;
+     id = 83;
+     img = "https://cdn.static.orzzhibo.com/20180102/1515461548c5c5c6.png";
+     "is_luck" = 1;
+     look = 1;
+     looktype = bojue;
+     silver = 0;
+     svga = "";
+     weight = 16;
+ },
+ {
+     category = 2;
+     "charge_assign" = "60.0";
+     cid = 2;
+     comment = "\U606d\U559c\U53d1\U8d22\Uff0c\U7ea2\U5305\U62ff\U6765";
+     getcoin = 0;
+     "grab_name" = "\U606d\U559c\U53d1\U8d22";
+     "grab_price" = 100000;
+     "grab_shell_price" = 60000;
+     id = 117;
+     img = "https://cdn.static.orzzhibo.com/201905/1548841499b25b5a.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "https://cdn.static.orzzhibo.com/201905/1548845196cb82cd.svga";
+     weight = 1;
+ },
+ {
+     category = 2;
+     "charge_assign" = "60.0";
+     cid = 2;
+     comment = "\U5305\U6cbb\U767e\U75c5\Uff01";
+     getcoin = 0;
+     "grab_name" = "lv\U5305\U5305";
+     "grab_price" = 10000;
+     "grab_shell_price" = 6000;
+     id = 2;
+     img = "https://cdn.static.orzzhibo.com/20180727/15306991564e457b.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "https://cdn.static.orzzhibo.com/20180727/15306991564e46ec.svga";
+     weight = 2;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "666\Uff08\U5c0f\Uff09";
+     "grab_price" = 100;
+     "grab_shell_price" = 50;
+     id = 122;
+     img = "https://cdn.static.orzzhibo.com/201915/1554864597533459.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 1;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U4eb2\U4eb2\Uff08\U5c0f\Uff09";
+     "grab_price" = 500;
+     "grab_shell_price" = 250;
+     id = 123;
+     img = "https://cdn.static.orzzhibo.com/201915/1554864741566e8a.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 2;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U5c0f\U76ae\U97ad\Uff08\U5c0f\Uff09";
+     "grab_price" = 1000;
+     "grab_shell_price" = 500;
+     id = 124;
+     img = "https://cdn.static.orzzhibo.com/201915/1554864806642496.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 3;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U6bd4\U5fc3";
+     "grab_price" = 2000;
+     "grab_shell_price" = 1000;
+     id = 125;
+     img = "https://cdn.static.orzzhibo.com/201915/155486485130fbf4.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 4;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U8001\U53f8\U673a\Uff08\U5c0f\Uff09";
+     "grab_price" = 5000;
+     "grab_shell_price" = 2500;
+     id = 126;
+     img = "https://cdn.static.orzzhibo.com/201915/155486490488dd08.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 5;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U6d77\U84dd\U4e4b\U5fc3\Uff08\U5c0f\Uff09";
+     "grab_price" = 5000;
+     "grab_shell_price" = 2500;
+     id = 127;
+     img = "https://cdn.static.orzzhibo.com/201915/1554864972c448e9.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 6;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U5973\U795e\U52a0\U5195\Uff08\U5c0f\Uff09";
+     "grab_price" = 10000;
+     "grab_shell_price" = 5000;
+     id = 128;
+     img = "https://cdn.static.orzzhibo.com/201915/1554865010288e3e.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 7;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 1;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U5973\U795e\U6743\U6756\Uff08\U5c0f\Uff09";
+     "grab_price" = 20000;
+     "grab_shell_price" = 10000;
+     id = 129;
+     img = "https://cdn.static.orzzhibo.com/201915/1554865045511541.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "";
+     weight = 8;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 2;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U544a\U767d\U60c5\U4e66\Uff08\U5c0f\Uff09";
+     "grab_price" = 10000;
+     "grab_shell_price" = 5000;
+     id = 130;
+     img = "https://cdn.static.orzzhibo.com/201915/1554865103f536ce.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "https://cdn.static.orzzhibo.com/201915/1554865103f5381e.svga";
+     weight = 9;
+ },
+ {
+     category = 8;
+     "charge_assign" = "50.0";
+     cid = 2;
+     comment = "";
+     getcoin = 0;
+     "grab_name" = "\U5343\U7eb8\U9e64\Uff08\U5c0f\Uff09";
+     "grab_price" = 20000;
+     "grab_shell_price" = 10000;
+     id = 131;
+     img = "https://cdn.static.orzzhibo.com/201915/1554865151f16559.png";
+     "is_luck" = 0;
+     silver = 0;
+     svga = "https://cdn.static.orzzhibo.com/201915/1554865151f16686.svga";
+     weight = 10;
+ }
+ )
