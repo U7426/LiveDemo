@@ -9,8 +9,10 @@
 #import "ViewController.h"
 #import "SwitchLiveViewController.h"
 #import "GiftViewController.h"
+#import "CoinsNumController.h"
 NSString *switchSting = @"切换视图";
 NSString *giftString = @"礼物";
+NSString *coinsNumberString = @"金币跳动";
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray *datas;
@@ -20,7 +22,7 @@ NSString *giftString = @"礼物";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.datas = @[switchSting,giftString];
+    self.datas = @[switchSting,giftString,coinsNumberString];
     // Do any additional setup after loading the view.
 }
 #pragma mark - delegate && dataScource
@@ -47,6 +49,11 @@ NSString *giftString = @"礼物";
         GiftViewController *giftVC = [GiftViewController alloc];
         giftVC.title = name;
         [self.navigationController pushViewController:giftVC animated:YES];
+    }
+    else if ([name isEqualToString:coinsNumberString]){
+        CoinsNumController *coinsVC = [CoinsNumController alloc];
+        coinsVC.title = name;
+        [self.navigationController pushViewController:coinsVC animated:YES];
     }
 }
 @end

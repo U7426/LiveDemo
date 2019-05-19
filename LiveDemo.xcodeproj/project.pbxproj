@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		495025D4CF657BB70D712790 /* libPods-LiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718D4FA8CA835B6C2D3283CC /* libPods-LiveDemo.a */; };
+		C83FA3492282BE6A0080C485 /* CoinsNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FA3482282BE6A0080C485 /* CoinsNumController.m */; };
+		C83FA34C2282DB580080C485 /* NumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FA34B2282DB580080C485 /* NumberLabel.m */; };
 		C8AF3816226EAEBC006E7A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3815226EAEBC006E7A1C /* AppDelegate.m */; };
 		C8AF3819226EAEBC006E7A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3818226EAEBC006E7A1C /* ViewController.m */; };
 		C8AF381C226EAEBC006E7A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AF381A226EAEBC006E7A1C /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 		5C6430239057E44008782D07 /* Pods-LiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveDemo.release.xcconfig"; path = "Target Support Files/Pods-LiveDemo/Pods-LiveDemo.release.xcconfig"; sourceTree = "<group>"; };
 		718D4FA8CA835B6C2D3283CC /* libPods-LiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832AF87BA3B834A83FCC3C68 /* Pods-LiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveDemo.debug.xcconfig"; path = "Target Support Files/Pods-LiveDemo/Pods-LiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C83FA3472282BE6A0080C485 /* CoinsNumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinsNumController.h; sourceTree = "<group>"; };
+		C83FA3482282BE6A0080C485 /* CoinsNumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinsNumController.m; sourceTree = "<group>"; };
+		C83FA34A2282DB570080C485 /* NumberLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberLabel.h; sourceTree = "<group>"; };
+		C83FA34B2282DB580080C485 /* NumberLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberLabel.m; sourceTree = "<group>"; };
 		C8AF3811226EAEBC006E7A1C /* LiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AF3814226EAEBC006E7A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8AF3815226EAEBC006E7A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +111,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C83FA3462282BE430080C485 /* CoinsNum */ = {
+			isa = PBXGroup;
+			children = (
+				C83FA3472282BE6A0080C485 /* CoinsNumController.h */,
+				C83FA3482282BE6A0080C485 /* CoinsNumController.m */,
+			);
+			path = CoinsNum;
+			sourceTree = "<group>";
+		};
 		C8AF3808226EAEBC006E7A1C = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +171,8 @@
 			children = (
 				C8B2F4D5226EFD42005ABFDC /* Gfit */,
 				C8B2F4D4226EFD2C005ABFDC /* switchLive */,
+				C83FA34A2282DB570080C485 /* NumberLabel.h */,
+				C83FA34B2282DB580080C485 /* NumberLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 				C8B2F4D2226EFCDA005ABFDC /* Home */,
 				C8B2F4D1226EFCCC005ABFDC /* switchLive */,
 				C8B2F4D3226EFCF9005ABFDC /* Gift */,
+				C83FA3462282BE430080C485 /* CoinsNum */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -379,9 +397,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B2F4AC226EE00F005ABFDC /* ItemScrollNumView.m in Sources */,
+				C83FA3492282BE6A0080C485 /* CoinsNumController.m in Sources */,
 				C8B2F4B5226EE18A005ABFDC /* GiftLuckyView.m in Sources */,
 				C8B2F4AF226EE03A005ABFDC /* GiftNumView.m in Sources */,
 				C8B2F4C2226EE2B8005ABFDC /* UIFont+Common.m in Sources */,
+				C83FA34C2282DB580080C485 /* NumberLabel.m in Sources */,
 				C8B2F4A2226EDC5B005ABFDC /* GiftViewController.m in Sources */,
 				C8B2F49B226EBA9E005ABFDC /* SwitchLiveView.m in Sources */,
 				C8B2F4C0226EE2B8005ABFDC /* UIView+Frame.m in Sources */,
