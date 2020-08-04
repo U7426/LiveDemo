@@ -22,6 +22,7 @@ NSString *coinsNumberString = @"金币跳动";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.view.backgroundColor = [UIColor whiteColor];
     self.datas = @[switchSting,giftString,coinsNumberString];
     // Do any additional setup after loading the view.
 }

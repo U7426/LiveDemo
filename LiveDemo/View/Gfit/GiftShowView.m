@@ -52,6 +52,7 @@
     self.iconV = ({
         UIImageView *iconV = [[UIImageView alloc]init];
         [iconV setImage:kDefault_User_Image];
+        iconV.contentMode = UIViewContentModeScaleAspectFill;
         [self addSubview:iconV];
         [iconV mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.mas_left).mas_offset(3.0);
