@@ -1,4 +1,4 @@
 # LiveDemo
 滑动切换直播
 赠送礼物机制
-![Image](http://github.com/U7426/LiveDemo/raw/master/Images/test.jpeg)
+![Image](https://github.com/U7426/LiveDemo/blob/master/Images/test.jpeg)
